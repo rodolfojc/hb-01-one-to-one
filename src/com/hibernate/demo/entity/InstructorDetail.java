@@ -12,6 +12,14 @@ import javax.persistence.Table;
 @Table(name="instructor_detail")
 public class InstructorDetail {
  
+	//STEPS
+	//ANNOTATE THE CLASS AS AN ENTITY AND MAP THE DB TABLE
+	//DEFINE FIELDS
+	//ANNOTATE THE FIELDS WITH DB COLUMN NAMES
+	//CREATE CONSTRUCTOR
+	//GENERATE SETTER AND GETTER
+	//GENERATE TOSTRING() 
+	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="id")
