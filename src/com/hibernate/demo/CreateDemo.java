@@ -36,6 +36,10 @@ public class CreateDemo {
 			
 			//START A TRANSACTION
 			session.beginTransaction();
+			
+			//SAVE INTRUCTOR - ALSO SAVE THE DETAILS OBJECT - CASCADETYPE.ALL
+			System.out.print("Saving instructor: "+tempInstructor);
+			session.save(tempInstructor);
 						
 			//COMMIT TRANSACTION
 			session.getTransaction().commit();
